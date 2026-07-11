@@ -1,9 +1,9 @@
-use datawarehouse;
+use datawarehouse; --use database
 /*=========================================================
-            LOAD SILVER LAYER
+            LOADING SILVER LAYER
 =========================================================*/
 /*=========================================================
- Load CRM tables
+1. Load CRM tables
 =========================================================*/
 DROP PROCEDURE IF EXISTS LoadSilverLayerData;
 
